@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
         apiArticle = ApiUtils.getApiArticle();
 
         apiArticle.getArticle("1",
-                "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaY2FlTFdVVVNDdnloMHYycEQ2b2Fvb1FwY3FVRHpyTytNN1pIeHBleGQ4MD0=",
-                "34bbc814aebed6a77062885c966809b8c5fa711a8f4ee86cbb51055638af49e1",
+                "hide",
+                "hide",
                 "3")
                 .enqueue(new Callback<ArticleModel>() {
                     @Override
